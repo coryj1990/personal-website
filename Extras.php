@@ -6,8 +6,9 @@
 <body>
 	<h1> Navigation </h1>
 
-<?php pinkthebkgrd(extras)
-navigate() ?>
+<?php
+navigate();
+pnkthebkgrd(extras); ?>
 
 
 <div style="padding:20px;">

@@ -6,8 +6,8 @@
 <body>
 	<h1> Navigation </h1>
 
-<?php pinkthebkgrd(goals)
-navigate() ?>
+<?php
+pnkthebkgrd(goals); ?>
 
 <div style="padding:20px;">
 <ul>

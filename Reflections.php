@@ -6,8 +6,8 @@
 <body>
 	<h1> Navigation </h1>
 
-<?php pinkthebkgrd(reflec)
-navigate() ?>
+<?php
+pnkthebkgrd(reflec); ?>
 
 <div>
 	<h2> Thoughts on recent hacker news posts </h2>

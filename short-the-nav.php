@@ -1,5 +1,14 @@
 <? php
+
+$needbackindex = ?> "style="background: none" <?php ;
+$needbackref = ?> "style="background: none" <?php ;
+$needbackgoals = ?> "style="background: none" <?php ;
+$needbackextra = ?> "style="background: none" <?php ;
+$needbacklink = ?> "style="background: none" <?php ;
+$needbackgithub = ?> "style="background: none" <?php ;
+
 function pinkthebkgrd($doesitneedback){ 
+
 	 switch($doesitneedback) {
 	 	case index:
 	 		$needbackindex = "style="background-color:brown;"
@@ -22,11 +31,13 @@ function pinkthebkgrd($doesitneedback){
 	 	default:
 	 		echo "It didn't work"					
 
-	 }
-	}
+	 ;}
+	 ;}
 
-function navigate() { 
+function navigate() {
+
 	echo ?>
+
 <talbe>
 	<tbody>
 	<tr>
@@ -40,6 +51,6 @@ function navigate() {
 	</tr>
 </tbody>
 
-<?php } ?>
+<?php ;} ?>
 
 
