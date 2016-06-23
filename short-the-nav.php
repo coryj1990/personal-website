@@ -1,56 +1,52 @@
-<? php
-
-$needbackindex = ?> "style="background: none" <?php ;
-$needbackref = ?> "style="background: none" <?php ;
-$needbackgoals = ?> "style="background: none" <?php ;
-$needbackextra = ?> "style="background: none" <?php ;
-$needbacklink = ?> "style="background: none" <?php ;
-$needbackgithub = ?> "style="background: none" <?php ;
-
+<?php
 function pinkthebkgrd($doesitneedback){ 
 
 	 switch($doesitneedback) {
 	 	case index:
-	 		$needbackindex = "style="background-color:brown;"
-	 		break ;
+	 			$thegoods = 'style="background-color: pink;"';
+	 			echo $thegoods;
+	 		break;
 	 	case reflec:
-	 		$needbackref = "style="background-color:pink;";
-	 		break ;
+	 			echo "First time 2";
+	 		break;
 	 	case goals:
-	 		$needbackgoals = "style="background-color:pink;";
-	 		break ;
+	 			echo "First time 3";
+	 		 break;
 	 	case extras:
-	 		$needbackextra = "style="background-color:pink;";
-	 		break ;
+	 			echo "First time 4";
+	 		 break;
 	 	case link:
-	 		$needbacklink = "style="background-color:pink;";
-	 		break ;
+	 			echo "First time 5";
+	 		 break;
 	 	case github:
-	 		$needbackgithub = "style="background-color:pink;";
-	 		break ;
+	 			echo "First time 6";
+	 		 break;
 	 	default:
-	 		echo "It didn't work"					
+	 		echo "It didn't work"
 
-	 ;}
-	 ;}
+	 		;}
+	 	}
+
+	 	
 
 function navigate() {
+?>
 
-	echo ?>
-
-<talbe>
-	<tbody>
+<tbody>
 	<tr>
-		<td><a href="index.html"; <?php $needbackindex ?>> Home </a></td>
-		<td><a href="Reflections.html"; <?php $needbackref ?>> Microsoft's energy consumption approach </a></td>
-		<td><a href="Goals.html"; <?php $needbackgoals ?>> Goals </a></td>
-		<td><a href="Extras.html"; <?php $needbackextra ?>> Extras </a></td>
+		<td><a href="index.php"; <?php echo $thegoods; ?>> Home</a></td>
+		<td><a href="Reflections.php";> Microsoft's energy consumption approach</a></td>
+		<td><a href="Goals.php";> Goals</a></td>
+		<td><a href="Extras.php";> Extras</a></td>
 		<td><a href="https://www.linkedin.com/in/cory-johnson-2a53504a
-"; <?php $needbacklink ?>> LinkedIn </a></td>
-		<td><a href="https://github.com/coryj1990"; <?php $needbackgithub ?>> GitHub </a></td>
+";> LinkedIn</a></td>
+		<td><a href="https://github.com/coryj1990";> GitHub</a></td>
 	</tr>
 </tbody>
 
-<?php ;} ?>
+<?php } 
+navigate();
+pinkthebkgrd(index);
+?>
 
 
