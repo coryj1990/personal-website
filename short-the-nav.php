@@ -27,14 +27,14 @@ function pinkthebkgrd($doesitneedback){
 	 		;}
 	 	}
 
-	 	
 
-function navigate() {
+
+function navigate($yesitneedsit) {
 ?>
 
 <tbody>
 	<tr>
-		<td><a href="index.php"; <?php echo $thegoods; ?>> Home</a></td>
+		<td><a href="index.php"; <?php pinkthebkgrd($yesitneedsit) ?>> Home</a></td>
 		<td><a href="Reflections.php";> Microsoft's energy consumption approach</a></td>
 		<td><a href="Goals.php";> Goals</a></td>
 		<td><a href="Extras.php";> Extras</a></td>
@@ -45,8 +45,8 @@ function navigate() {
 </tbody>
 
 <?php } 
-navigate();
-pinkthebkgrd(index);
+navigate(index);
+
 ?>
 
 
