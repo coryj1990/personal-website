@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <title> My first website from OCS </title>
@@ -6,9 +5,10 @@
 <body>
 	<h1> Navigation </h1>
 
-<?php
-echo navigate();
-echo pnkthebkgrd(index); ?>
+<?php 
+include 'short-the-nav.php';
+navigate(index);
+?>
 
 <div>
 <h4>Hello, I am Cory Johnson</h4>
@@ -19,14 +19,6 @@ Neil Armstrong is known for the quote "One small step for man, one giant leap fo
 <div>
 	<img src="http://i.imgur.com/TLD8iXMb.jpg"/>
 </div>
-<html>
-<h1>
-WAHOO
-</h1>
+</div>
+</body>
 </html>
-
-<?php
-
-echo "Hello!";
-
-?>

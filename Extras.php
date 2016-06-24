@@ -5,11 +5,10 @@
 </head>
 <body>
 	<h1> Navigation </h1>
-
 <?php
-navigate();
-pnkthebkgrd(extras); ?>
-
+include 'short-the-nav.php';
+navigate(extras);
+?>
 
 <div style="padding:20px;">
 <h3>Historical marks (so far) in my life</h3>

@@ -6,8 +6,10 @@
 <body>
 	<h1> Navigation </h1>
 
-<?php
-pnkthebkgrd(goals); ?>
+<?php 
+include 'short-the-nav.php';
+navigate (goals);
+?>
 
 <div style="padding:20px;">
 <ul>

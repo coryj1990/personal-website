@@ -6,8 +6,10 @@
 <body>
 	<h1> Navigation </h1>
 
-<?php
-pnkthebkgrd(reflec); ?>
+<?php 
+include 'short-the-nav.php';
+navigate (reflec);
+?>
 
 <div>
 	<h2> Thoughts on recent hacker news posts </h2>
