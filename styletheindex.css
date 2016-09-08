@@ -1,0 +1,40 @@
+
+
+#namebox {
+	border: 4px red dashed;
+	padding: 50px;
+	justify-content: flex-end;
+	color: yellow;
+	font-size: 33px;
+	background-color: violet;
+}
+
+a {
+	text-decoration: none;
+	height: 11px;
+	width: 11px;
+}
+
+#joinplz {
+	display: flex;
+	align-items: center;
+}
+
+
+#navname {
+	font-size: 20px;
+	padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

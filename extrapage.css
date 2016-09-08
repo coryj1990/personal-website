@@ -1,0 +1,14 @@
+body {
+	background-color: #99ff99;
+}
+
+#leftcontain {
+	display: flex;
+	flex-direction: column;
+
+}
+
+#leftcontain{
+	background-color: #ccccff;
+
+}
